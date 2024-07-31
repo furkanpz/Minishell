@@ -1,4 +1,4 @@
-# Minishell - @42Born2Code
+# Minishell
 
 As beautiful as a shell
 
@@ -22,7 +22,7 @@ Those versions are the ones used during development.
 
 1. Download/Clone this repo
 
-        git clone https://github.com/r4meau/minishell
+        git clone https://github.com/furkanpz/Minishell
 2. `cd` into the root directory and run `make`
 
         cd minishell
@@ -37,7 +37,7 @@ After building the source, run `./minishell` from the project root.
 ### Mandatory
 
 - Can only use C
-- Must respect the school imposed coding style ([The Norme][norme-pdf])
+- Must respect the school imposed coding style
 - No memory leaks
 - Implement a series of builtins: `echo`, `cd`, `setenv`, `unsetenv`, `env`, `exit`
 - Manage the errors without using `errno`, by displaying a message adapted
@@ -55,9 +55,8 @@ to the error output
     - exit
 - Must have a Makefile to build the program
 - The binary file must be named `minishell`
-- Can use [Libft][libft-url]
+- Can use Libft
 - Handle program interruption (Ctrl + D)
-- [Click here][1] for the rest
 
 ### Bonuses
 
@@ -68,9 +67,7 @@ to the error output
 
 ## Notes
 
-- You can find the project instructions by [clicking here][1]
 - I commented the whole codebase so it's easy to navigate and understand it.
 - No need to mention the odd spacing in files, I'm using a tab size of 4.
-- There are probably better ways to implement it, we are limited by a set of functions at my school (just to make it harder and give us a deeper understanding of what's happening in the back), please, review the [project instructions][1] before you explain how `X` or `Y` would have been a better way to do it ;)
 
 Enjoy!
